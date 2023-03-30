@@ -1,10 +1,78 @@
-.bg-img {
-    background-image: url(static/images/SIDE.jpg);
+body {
+    margin: 0;
+}
 
-    min-height: 380px;
+.bg-img {
+    background-image: url(images/SIDE.jpg);
+
+    min-height: 550px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     position: relative;
+}
+
+.container {
+    position: absolute;
+    margin: 0px;
+    width: auto;
+}
+
+.leftnav {
+    overflow: hidden;
+    background-color: #ddd;
+}
+
+.leftnav a {
+    float: left;
+    color: blue;
+    text-align: left;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.logo {
+    display: block;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.logo img {
+    height: auto;
+    width: 100%;
+}
+
+.ctamaster {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ctamaster img {
+    max-width: 100%;
+}
+
+.image2 {
+    flex-basis: 50%;
+    padding-right: 10px;
+}
+
+.CTA h1 {
+    font-size: 40px;
 }

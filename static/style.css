@@ -254,9 +254,6 @@ body {
 
 .reviews {
     margin-top: 100px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .reviews img {
@@ -264,6 +261,8 @@ body {
     padding-top: 0;
     position: relative;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button3 {
@@ -280,4 +279,5 @@ body {
     margin-right: auto;
     text-decoration: none;
     margin-top: 20px;
+   
 }

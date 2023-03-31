@@ -198,11 +198,19 @@ body {
     color: white;
     margin-left: 50px;
     margin-right: 50px;
+    border: none;
+    box-shadow: none;
 }
 
-.yt {
+.removable p {
+    font-size: 20px;
+}
+
+.ytt {
     padding-left: 20px;
     border: none;
+    box-shadow: none;
+    display: block;
 }
 
 .carplay {
@@ -212,6 +220,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border: none;
+    box-shadow: none;
 
 
     position: absolute;
@@ -230,6 +240,7 @@ body {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 20px;
 }
 
 .cp {
@@ -237,6 +248,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    border: none;
+    box-shadow: none;
 }
 
 .bg-img3 {
@@ -279,5 +292,4 @@ body {
     margin-right: auto;
     text-decoration: none;
     margin-top: 20px;
-   
 }

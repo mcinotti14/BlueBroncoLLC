@@ -41,8 +41,13 @@ body {
 }
 
 .topnav a:hover {
+    background-color: white;
+    color: blue;
+}
+
+.leftnav a:hover {
     background-color: blue;
-    color: white;
+    color: white
 }
 
 .logo {
@@ -102,6 +107,11 @@ body {
     font-weight: bold;
 }
 
+.button:hover {
+    background-color: lightcyan;
+    color: blue;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -142,7 +152,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: black;
-    background-image: url(images/beach.jpg);
+    background-image: url(images/new/beach.JPG);
     min-height: 900px;
     background-position: center;
     background-size: cover;
@@ -174,6 +184,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
+}
+
+.button1:hover {
+    background-color: lightcyan;
+    color: blue;
 }
 
 
@@ -292,4 +307,9 @@ body {
     margin-right: auto;
     text-decoration: none;
     margin-top: 20px;
+}
+
+.button3:hover {
+    background-color: lightcyan;
+    color: blue;
 }
